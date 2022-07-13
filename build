@@ -1,0 +1,47 @@
+FIRST_ARGUMENT="$1"
+SECOND_ARGUMENT="$2"
+THIRD_ARGUMENT="$3"
+
+if [ "$FIRST_ARGUMENT" = "a" ] ; then
+
+#  react-native link react-native-maps
+
+  # Android handle
+  case "$SECOND_ARGUMENT" in
+    ("run-debug")
+      react-native run-android ;;
+    ("idevice")
+      cd android
+      adb install app/build/outputs/apk/app-release.apk
+      cd .. ;;
+    ("run-release")
+      cd android
+      ./gradlew assembleRelease
+      if [ "$THIRD_ARGUMENT" = "idevice" ] ; then
+        adb install app/build/outputs/apk/app-release.apk
+      fi
+      open app/build/outputs/apk/
+      cd .. ;;
+    ( * )
+      react-native run-android ;;
+  esac
+fi
+
+#if [ "$FIRST_ARGUMENT" = "i" ] ; then
+#
+#  react-native unlink react-native-maps
+#
+#  # Ios handle
+#  case "$SECOND_ARGUMENT" in
+#    ("run-ios")
+#      open ios/espmWhip.xcworkspace/ ;;
+#    ( * )
+#      open ios/espmWhip.xcworkspace/ ;;
+#  esac
+#fi
+
+if [ "$FIRST_ARGUMENT" = "resolve-libs" ] ; then
+  # resolve react-native-facebook-login
+  \cp -r resolve-libs/react-native-facebook-login/build.gradle node_modules/react-native-facebook-login/android/build.gradle
+  \cp -r resolve-libs/react-native-facebook-login/index.ios.js node_modules/react-native-facebook-login/index.ios.js
+fi

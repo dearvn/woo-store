@@ -1,0 +1,80 @@
+{
+  "_from": "react-native-looped-carousel",
+  "_id": "react-native-looped-carousel@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha1-noGuxzIDklBWjjZzg9C9cLpBc+k=",
+  "_location": "/react-native-looped-carousel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-looped-carousel",
+    "name": "react-native-looped-carousel",
+    "escapedName": "react-native-looped-carousel",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-looped-carousel/-/react-native-looped-carousel-0.1.7.tgz",
+  "_shasum": "9e81aec732039250568e367383d0bd70ba4173e9",
+  "_spec": "react-native-looped-carousel",
+  "_where": "P:\\Donald\\shopcart",
+  "author": {
+    "name": "Phil Rukin",
+    "email": "philipp@rukin.me",
+    "url": "http://rukin.me"
+  },
+  "bugs": {
+    "url": "https://github.com/appintheair/react-native-looped-carousel/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Sergey Pronin",
+      "email": "sergey@pronin.me"
+    }
+  ],
+  "deprecated": false,
+  "description": "Looped carousel for React Native",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "homepage": "https://github.com/appintheair/react-native-looped-carousel#readme",
+  "keywords": [
+    "react",
+    "native",
+    "carousel",
+    "looped"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-looped-carousel",
+  "peerDependencies": {
+    "react": ">=15.3.1",
+    "react-native": ">=0.25.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appintheair/react-native-looped-carousel.git"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tags": [
+    "react",
+    "native",
+    "carousel",
+    "looped"
+  ],
+  "version": "0.1.7"
+}

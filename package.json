@@ -1,0 +1,76 @@
+{
+  "name": "ShopCart",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "ios-open": "open ios/*.xcodeproj",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "link": "react-native link",
+    "remotedev": "remotedev-debugger --injectserver",
+    "postinstall": "npm run remotedev && rndebugger-open && ./build resolve-libs",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/",
+      "./assets/fonts/Roboto",
+      "./assets/fonts/Lato"
+    ]
+  },
+  "resolutions": {
+    "metro-bundler": "0.20.2",
+    "color-convert": "1.9.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-plugin-transform-remove-console": "^6.8.1",
+    "base-64": "^0.1.0",
+    "bluebird": "^3.4.7",
+    "card-validator": "^4.2.0",
+    "crypto-js": "^3.1.9-1",
+    "currency-formatter": "^1.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.3",
+    "oauth-1.0a": "^2.2.2",
+    "prop-types": "^15.6.0",
+    "qs": "^6.5.1",
+    "react": "^16.2.0",
+    "react-native": "^0.51.0",
+    "react-native-animatable": "^1.2.4",
+    "react-native-autoheight-webview": "^0.4.0",
+    "react-native-collapsible": "^0.10.0",
+    "react-native-dropdownalert": "^3.1.2",
+    "react-native-facebook-login": "1.6.0",
+    "react-native-keyboard-aware-scroll-view": "^0.4.1",
+    "react-native-masked-text": "^1.6.5",
+    "react-native-material-textfield": "^0.11.0",
+    "react-native-modal": "^4.1.1",
+    "react-native-segmented-control-tab": "^3.2.1",
+    "react-native-swipeout": "^2.3.3",
+    "react-native-vector-icons": "^4.4.2",
+    "react-navigation": "^1.0.0-beta.21",
+    "react-navigation-redux-helpers": "1.0.5",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-persist": "^5.4.0",
+    "redux-thunk": "^2.2.0",
+    "striptags": "^3.1.1",
+    "tween-functions": "^1.2.0",
+    "validate.js": "^0.12.0"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-native-debugger-open": "^0.3.15",
+    "react-test-renderer": "16.0.0",
+    "remote-redux-devtools": "^0.5.12",
+    "remotedev-rn-debugger": "^0.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

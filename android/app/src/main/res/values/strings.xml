@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shop Cart</string>
+    <string name="facebook_app_id">905442352964363</string>
+    <string name="fb_login_protocol_scheme">fb905442352964363</string>
+</resources>

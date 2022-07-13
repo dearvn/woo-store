@@ -1,0 +1,13 @@
+{
+  "name": "ShopCart",
+  "displayName": "Shop Cart",
+  "baseUrl": "http://ns531631.ip-149-56-25.net",
+  "consumerKey": "ck_7d1f5656002090b14469122bc51b0c2fef9676c3",
+  "consumerSecret": "cs_25182ce214bcb72a85c5db5d12403a45a6b32498",
+  "stripePublishableKey": "pk_live_ClCzhjoZBHyspivJ1iA3CyOk",
+  "stripeSecretKey": "sk_test_LsZ5rYxVQjGf8flOoC2LVr75",
+  "paypalClientId": "ATSnQwPIVnNd899NQCcxtsNXeRuKZqTDkxAO0Uz3s7CsTpbGy2jijd9xVQRhoORftorzMQdBoxAFj30Q",
+  "paypalSecretKey": "EK4yQCW4cK7OEywij9NQPN4Io5sO_fDmL0__t_UjeyZT7xqpo5aa7Wh1iKQTFQBaF8i--EoTpNxM7dsH",
+  "paypalSandBoxMode": true,
+  "version": 2
+}
